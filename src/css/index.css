@@ -2,6 +2,7 @@
     padding:0px;
     margin:0px;
 }
+
 #home{
     margin-left: 150px;
 }
@@ -33,6 +34,10 @@ nav{
     margin-left: 1300px;
     margin-top: 30px;
 }
+
+
+
+
 #logo{
     width: 200px;
     height: 200px;
@@ -196,4 +201,66 @@ text-align: center;}
     display: flex;
     gap:30px;
     justify-content: center;
+}
+
+#bg_courses{
+    z-index: -1;
+    position: absolute;
+    width: 2500px;
+    top: 2600px;
+    left: -100px;
+}
+#course_title{
+    font-size: 35px;
+    color: #333;
+    margin-left: 100px;
+    padding-top: 30px;}
+#course_img{
+    width: 430px;
+    height: 259px;
+    border-radius: 10px;
+}
+#course_card{
+    width: 430px;
+height: 410px;
+border-radius: 10px;
+background: #F0F0F0;
+box-shadow: 0 4px 11.1px 4px rgba(0, 0, 0, 0.56);
+}
+
+#course_card p{
+    color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+width: 425px;
+padding: 10px;
+}
+
+#courses{
+    display: flex;
+    gap: 50px;
+    margin-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin-top: 200px;
+}
+#row1{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#row2{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#course_card a{
+    color:#040163;
+    font-size: 15px;
+    margin-left: 300px;
 }
