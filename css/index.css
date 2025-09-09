@@ -10,7 +10,7 @@ header{
 ul{
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 25px;
     font-size: 16px;
     font-weight: bold;
 }
@@ -25,11 +25,15 @@ nav{
     margin-left: 600px;
     margin-top: 30px;
 }
+#nav_item{
+padding: 5px;
+}
 #nav_item:hover{
     background-color: #4945cacf;
     border-radius: 5px;
-    padding: 5px;
     transition-duration: 0.3s;
+    margin-top:-5px;
+    
 
 
 }
@@ -151,9 +155,15 @@ h1{
     width: 420px;
     height: 470px;
     left: 600px;
-    top:750px
+    top:750px;
 
 }
+
+
+
+
+
+
 #about{
     margin-top: 100px;
     margin-left: 50px;
@@ -237,6 +247,7 @@ width:450px;
     height: 20px;
 
 }
+
 #individuals p{
     text-align: center;
     margin-left: 10px;
@@ -246,6 +257,9 @@ width:450px;
     gap:20px;
     justify-content: center;
 }
+
+
+
 
 #bg_courses{
     z-index: -1;
